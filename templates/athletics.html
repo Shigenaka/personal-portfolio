@@ -1,0 +1,14 @@
+<h1>Athletics</h1>
+
+<div id="athDescription" class="container">
+	<p>Last January I began interning at UW Athletics where I worked with the social media team to create content and support the social media manager. I came in knowing very little about Photoshop but I wanted to learn and get my foot in the door of athletics. Here is some examples of work I did last year.</p>
+</div>
+
+<div id="athletics" class="container">
+	<div class="well grid" ng-repeat="graphic in data" title="{{graphic.graphic}}">
+		<img class="xs-col-6" src="{{graphic.src}}">
+		<div class="xs-col-6">
+			<p>{{graphic.description}}</p>
+		</div>
+	</div>
+</div>

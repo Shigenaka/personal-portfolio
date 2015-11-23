@@ -1,0 +1,85 @@
+.header {
+	text-align: center;
+}
+
+body {
+	background-color: #eede8b;
+}
+
+.header a {
+	margin-bottom: 10px;
+}
+
+#main {
+	background-color: #083962;
+}
+
+#aboutMe {
+	background-color: #5aa4cd;
+	border-radius: 5px;
+}
+
+#aboutMe img {
+	max-height: 300px;
+	float: left;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+#aboutMe p {
+	padding-top: 10px;
+}
+
+#main h1 {
+	color: white;
+	padding-top: 15px;
+}
+
+footer {
+	width:100%;
+	left:0px;
+	padding:10px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.well img {
+	max-width: 100%;
+	margin-right: 1em;
+	border-radius: 5px;
+}
+
+.btn-success {
+	margin: 15px;
+}
+
+.well a, .well a:active{
+	color: white;
+}
+
+.well a:hover, .well a:focus, .well a:active {
+	text-decoration: none;
+	color: black;
+}
+
+.well {
+	background-color: #5aa4cd;
+	border: none;
+}
+
+#athDescription {
+	background-color: #5aa4cd;
+	border-radius: 5px;
+}
+
+#athDescription p {
+	padding-top: 10px;
+}
+
+#athletics {
+	padding-top: 15px;
+}
