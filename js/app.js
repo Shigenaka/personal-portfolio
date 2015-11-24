@@ -22,7 +22,9 @@ var myApp = angular.module('myApp', ['ui.router'])
 
 // Home page controller
 .controller('HomeController', function($scope, $http){
-
+  $scope.myName = "Mason Shigenaka";
+  $scope.profilePic = "img/headshot.jpg";
+  $scope.resume = "files/resume.pdf";
 })
 
 // Projects page controller
